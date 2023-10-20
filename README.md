@@ -4,8 +4,6 @@
 
 # Focal_TSMP
 
-
-
 This is the code to reproduce the results presented in the paper: 
 
 "**Focal-TSMP: Deep learning for vegetation health prediction and agricultural drought assessment from a regional climate simulation**" by [Mohamad Hakam Shams Eddin](https://hakamshams.github.io/), and [Juergen Gall](http://pages.iai.uni-bonn.de/gall_juergen/)
@@ -16,10 +14,13 @@ Computer Vision Group, Institue of Computer Science, University of Bonn
 
 [![IMAGE ALT TEXT HERE](docs/images/video_github.png)](https://www.youtube.com/watch?v=eF-6MysFU9o)
 
+<br />
 
 ## Model architecture
 
 ![Example a](docs/images/image_01.png "model")
+
+<br />
 
 ## Setup
 
@@ -71,23 +72,6 @@ Pretrained models can be downloaded from [https://zenodo.org/doi/10.5281/zenodo.
 If you find our work useful in your research, please cite:
 
 ```
-@ARTICLE{LOAN,
-  author={Shams Eddin, Mohamad Hakam and Roscher, Ribana and Gall, Juergen},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Location-Aware Adaptive Normalization: A Deep Learning Approach for Wildfire Danger Forecasting}, 
-  year={2023},
-  volume={61},
-  number={},
-  pages={1-18},
-  doi={10.1109/TGRS.2023.3285401}}
-
-  
-@article{LOAN,
-  title={Location-aware Adaptive Denormalization: A Deep Learning Approach For Wildfire Danger Forecasting},
-  author={Mohamad Hakam Shams Eddin and Ribana Roscher and Juergen Gall},
-  journal={ArXiv},
-  year={2022},
-  volume={abs/2212.08208}}
 
 ``` -->
 
