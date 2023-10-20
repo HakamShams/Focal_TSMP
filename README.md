@@ -26,7 +26,7 @@ Computer Vision Group, Institue of Computer Science, University of Bonn
 
 For conda, you can install dependencies using yml file:
 ```
-  conda env create -f environment.yml
+  conda env create -f Focal_TSMP.yml
 ```
 
 ## Code
