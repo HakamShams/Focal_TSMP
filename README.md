@@ -56,7 +56,7 @@ For testing:
 
 To train on TSMP dataset:
 - You have to download the preprocessed remote sensing data into the directoy [data](data) from [https://zenodo.org/doi/10.5281/zenodo.10008814](https://zenodo.org/doi/10.5281/zenodo.10008814) (~6GB).
-- Download the [TSMP simulation](https://datapub.fz-juelich.de/slts/cordex/index.html) from Juelich Research Centre into the directory [data/TerrSysMP](data/TerrSysMP). You can use the script [download_data_Juelich.py](preprocessing/download_data_Juelich.py)
+- Download the [TSMP simulation](https://datapub.fz-juelich.de/slts/cordex/index.html) (~900GB) from Juelich Research Centre into the directory [data/TerrSysMP](data/TerrSysMP). You can use the script [download_data_Juelich.py](preprocessing/download_data_Juelich.py)
 - Generate the dataset TerrSysMP_NET using the script [generate_TerrSysMP_NET.py](preprocessing/generate_TerrSysMP_NET.py). 
 
     The file (generate_TerrSysMP_NET.py) is hard coded for this specific dataset and not ment to be a generic script for preprocessing.
