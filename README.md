@@ -12,7 +12,7 @@ Computer Vision Group, Institue of Computer Science, University of Bonn
 
 ### [Project Page](https://hakamshams.github.io/Focal-TSMP/) | Paper
 
-[![IMAGE ALT TEXT HERE](docs/images/video_github.png)](https://www.youtube.com/watch?v=eF-6MysFU9o)
+[![IMAGE ALT TEXT HERE](docs/images/video_github.png)](https://www.youtube.com/watch?v=7m-85sDGwe8)
 
 <br />
 
