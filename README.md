@@ -10,7 +10,7 @@ This is the code to reproduce the results presented in the paper:
 
 Computer Vision Group, Institue of Computer Science, University of Bonn
 
-### [Project Page](https://hakamshams.github.io/Focal-TSMP/) | Paper
+### [Project Page](https://hakamshams.github.io/Focal-TSMP/) | [Paper](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2422/)
 
 [![IMAGE ALT TEXT HERE](docs/images/video_github.png)](https://www.youtube.com/watch?v=7m-85sDGwe8)
 
