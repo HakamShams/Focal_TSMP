@@ -68,12 +68,23 @@ To train on another dataset, you need to create a new dataloader class like [Ter
 Pretrained models can be downloaded from [https://zenodo.org/doi/10.5281/zenodo.10015048](https://zenodo.org/doi/10.5281/zenodo.10015048)
 
 
-<!-- ### Citation
+### Citation
 If you find our work useful in your research, please cite:
 
 ```
 
-``` -->
+@Article{egusphere-2023-2422,
+AUTHOR = {Shams Eddin, M. H. and Gall, J.},
+TITLE = {Focal-TSMP: Deep learning for vegetation health prediction and agricultural drought assessment from a regional climate simulation},
+JOURNAL = {EGUsphere},
+VOLUME = {2023},
+YEAR = {2023},
+PAGES = {1--50},
+URL = {https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2422/},
+DOI = {10.5194/egusphere-2023-2422}
+}
+
+```
 
 ### Acknowledgments
 
