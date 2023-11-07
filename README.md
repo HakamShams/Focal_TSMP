@@ -6,7 +6,7 @@
 
 This is the code to reproduce the results presented in the paper: 
 
-"**Focal-TSMP: Deep learning for vegetation health prediction and agricultural drought assessment from a regional climate simulation**" by [Mohamad Hakam Shams Eddin](https://hakamshams.github.io/), and [Juergen Gall](http://pages.iai.uni-bonn.de/gall_juergen/)
+["**Focal-TSMP: Deep learning for vegetation health prediction and agricultural drought assessment from a regional climate simulation**"](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2422/) by [Mohamad Hakam Shams Eddin](https://hakamshams.github.io/), and [Juergen Gall](http://pages.iai.uni-bonn.de/gall_juergen/)
 
 Computer Vision Group, Institue of Computer Science, University of Bonn
 
