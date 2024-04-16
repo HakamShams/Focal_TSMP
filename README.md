@@ -6,11 +6,11 @@
 
 This is the code to reproduce the results presented in the paper: 
 
-["**Focal-TSMP: Deep learning for vegetation health prediction and agricultural drought assessment from a regional climate simulation**"](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2422/) by [Mohamad Hakam Shams Eddin](https://hakamshams.github.io/), and [Juergen Gall](http://pages.iai.uni-bonn.de/gall_juergen/)
+["**Focal-TSMP: deep learning for vegetation health prediction and agricultural drought assessment from a regional climate simulation**"](https://doi.org/10.5194/gmd-17-2987-2024) by [Mohamad Hakam Shams Eddin](https://hakamshams.github.io/), and [Juergen Gall](http://pages.iai.uni-bonn.de/gall_juergen/). Published in [Geoscientific Model Development](https://www.geoscientific-model-development.net/).
 
-Computer Vision Group, Institue of Computer Science, University of Bonn
+Computer Vision Group, Institue of Computer Science, University of Bonn.
 
-### [Project Page](https://hakamshams.github.io/Focal-TSMP/) | [Paper](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2422/)
+### [Project Page](https://hakamshams.github.io/Focal-TSMP/) | [Paper](https://doi.org/10.5194/gmd-17-2987-2024)
 
 [![IMAGE ALT TEXT HERE](docs/images/video_github.png)](https://www.youtube.com/watch?v=7m-85sDGwe8)
 
@@ -73,22 +73,23 @@ If you find our work useful in your research, please cite:
 
 ```
 
-@Article{egusphere-2023-2422,
+@Article{gmd-17-2987-2024,
 AUTHOR = {Shams Eddin, M. H. and Gall, J.},
-TITLE = {Focal-TSMP: Deep learning for vegetation health prediction and agricultural drought assessment from a regional climate simulation},
-JOURNAL = {EGUsphere},
-VOLUME = {2023},
-YEAR = {2023},
-PAGES = {1--50},
-URL = {https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2422/},
-DOI = {10.5194/egusphere-2023-2422}
+TITLE = {Focal-TSMP: deep learning for vegetation health prediction and agricultural drought assessment from a regional climate simulation},
+JOURNAL = {Geoscientific Model Development},
+VOLUME = {17},
+YEAR = {2024},
+NUMBER = {7},
+PAGES = {2987--3023},
+URL = {https://gmd.copernicus.org/articles/17/2987/2024/},
+DOI = {10.5194/gmd-17-2987-2024}
 }
 
 ```
 
 ### Acknowledgments
 
-This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) within the Collaborative Research Centre SFB 1502/1–2022 - [DETECT](https://sfb1502.de/) - [D05](https://sfb1502.de/projects/cluster-d/d05).
+This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) within the Collaborative Research Centre SFB 1502/1–2022 - [DETECT](https://sfb1502.de/) - [D05](https://sfb1502.de/projects/cluster-d/d05) and under Germany’s Excellence Strategy – EXC 2070– project no. 390732324.
 
 ### License
 The code is released under MIT License. See the [LICENSE](LICENSE) file for details.
