@@ -383,9 +383,9 @@ class TerrSysMP_NET(Dataset):
         Netcdf_cold_surface : numpy array [n_lat, n_lon]
             mask of cold surfaces (i.e., snow)
         """
-        Netcdf_smn = xr.load_dataset(NetCDF_file)['SMN'].values
-        Netcdf_smt = xr.load_dataset(NetCDF_file)['SMT'].values
-        Netcdf_cold_surface = xr.load_dataset(NetCDF_file)['mask_cold_surface'].values
+        Netcdf_smn = xr.open_dataset(NetCDF_file)['SMN'].values
+        Netcdf_smt = xr.open_dataset(NetCDF_file)['SMT'].values
+        Netcdf_cold_surface = xr.open_dataset(NetCDF_file)['mask_cold_surface'].values
 
         if Netcdf_smn.ndim > 2:
             with warnings.catch_warnings():
@@ -415,10 +415,10 @@ class TerrSysMP_NET(Dataset):
         """
 
         if 'sgw' not in self.variables and 'pgw' not in self.variables:
-            datacube = xr.load_dataset(NetCDF_file)[self.variables].to_array().values
+            datacube = xr.open_dataset(NetCDF_file)[self.variables].to_array().values
 
         elif 'sgw' in self.variables and 'pgw' not in self.variables:
-            datacube = xr.load_dataset(NetCDF_file)[self.variables].to_array().values
+            datacube = xr.open_dataset(NetCDF_file)[self.variables].to_array().values
             if datacube.shape[2] != self.n_lat:
                 datacube = np.moveaxis(datacube, 2, -1)
             datacube = np.concatenate((datacube[:self.variables.index('sgw'), :, :, :, 0],
@@ -426,7 +426,7 @@ class TerrSysMP_NET(Dataset):
                                        datacube[self.variables.index('sgw') + 1:, :, :, :, 0]), axis=0)
 
         elif 'pgw' in self.variables and 'sgw' not in self.variables:
-            datacube = xr.load_dataset(NetCDF_file)[self.variables].to_array().values
+            datacube = xr.open_dataset(NetCDF_file)[self.variables].to_array().values
             if datacube.shape[2] == self.n_lat:
                 datacube = np.moveaxis(datacube, 2, -1)
             datacube = np.concatenate((datacube[:self.variables.index('pgw'), :, :, :, 0],
@@ -435,7 +435,7 @@ class TerrSysMP_NET(Dataset):
 
         elif 'pgw' in self.variables and 'sgw' in self.variables:
 
-            datacube = xr.load_dataset(NetCDF_file)[self.variables].to_array().values
+            datacube = xr.open_dataset(NetCDF_file)[self.variables].to_array().values
             if datacube.shape[2] != self.n_lat:
                 datacube = np.moveaxis(datacube, 2, -1)
             datacube = np.concatenate((datacube[:self.variables.index('pgw'), :, :, :, 0],
